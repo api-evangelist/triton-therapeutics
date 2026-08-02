@@ -1,4 +1,16 @@
 aid: triton-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/triton-therapeutics.png
 name: Triton Therapeutics
 description: Triton Therapeutics is a company surfaced as a portfolio company of canaan-partners and added
   to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -12,7 +24,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 apis: []
@@ -21,3 +33,13 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment-note: 'Enrichment probe 2026-07-21 found no API surface. Canonical domain
+  tritontherapeutics.com is a parked GoDaddy for-sale domain (all paths, including
+  /.well-known/*, return the parking lander); tritontx.com is an unrelated Texas construction
+  firm. No developer portal, OpenAPI, packages, or well-known artifacts exist. Biotech/therapeutics
+  VC-portfolio stub with no discoverable developer surface.'
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
